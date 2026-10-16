@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+~$*
+logs/
+
+# downloaded data: rebuilt by the scripts (see README); data/sample holds small extracts for the notebook
+data/*
+!data/sample/
+
+# large outputs that the scripts rebuild; the small summary tables stay
+results/sim/raw/
+results/crypto/benchmark_pair_day.jsonl
+results/crypto/pair_month_estimates.csv
+results/moex/stock_month_estimates.csv
+.pytest_cache/
